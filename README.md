@@ -17,7 +17,7 @@ amd64, arm32v7 ( Raspberry PI 2) , arm64v8 ( Raspberry PI 3), i386, ppc64le, s39
 
 ```bash
 
-docker run --name nginx -p 80:80 -p 443:443 libertaria/nginx:arm64
+docker run --name nginx -p 80:80 -p 443:443 libertaria/nginx:armv7
 
 ```
 
@@ -27,7 +27,7 @@ The container serves content from inside /usr/html/ by default on the localhost.
 
 ```bash
 
-docker run --name nginx -p 80:80 -p 443:443  -v my/device/folder:/usr/html libertaria/nginx:armv64
+docker run --name nginx -p 80:80 -p 443:443  -v my/device/folder:/usr/html libertaria/nginx:armv7
 
 ```
  
