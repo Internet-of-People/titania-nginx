@@ -1,4 +1,4 @@
-FROM armhf/alpine:3.5
+FROM multiarch/alpine:armhf-v3.6
 
 LABEL maintainer="wessel<jimfromsa@gmail.com> for Libertaria forked from NGINX Docker Maintainers <docker-maint@nginx.com>"
 
